@@ -10,10 +10,10 @@ Generate a valid JSON object with this exact structure:
 {{
   "episode_title": "[Create a compelling title based on the stories - do not include dates]",
   "intro": "[Opening segment]",
-  "story_1": "[First story]",
-  "story_2": "[Second story]",
-  "story_3": "[Third story if applicable]",
-  "story_4": "[Fourth story if applicable]",
+  "story_1": "[First story with transition]",
+  "story_2": "[Second story with transition]",
+  "story_3": "[Third story with transition if applicable]",
+  "story_4": "[Fourth story with transition if applicable]",
   "story_5": "[Fifth story if applicable]",
   "outro": "[Closing segment]"
 }}
@@ -23,11 +23,15 @@ Note: Include only as many story fields as you have stories to cover (minimum 1,
 CONTENT REQUIREMENTS:
 - Episode Title: Create an engaging title that captures the essence of the day's stories
 - Intro (75-100 words): Preview all stories in an engaging way, setting up the narrative arc
-- Each Story (200-250 words): 
+- Each Story (200-250 words INCLUDING transition): 
   • Synthesize information from source articles - don't just summarize
   • Provide context and analysis
   • Connect details to broader implications
   • Use smooth transitions between ideas
+  • IMPORTANT: End each story (except the last one) with a 1-2 sentence transition that naturally leads into the next story
+  • The transition should create a bridge between the current story's theme and the next story's topic
+  • Example transitions: "Speaking of technology's impact on society..." or "This brings us to another developing story..." or "Meanwhile, in the world of..."
+- Last Story: Should transition naturally into the outro theme without an explicit transition sentence
 - Outro (75-100 words): Tie all stories together with overarching themes and forward-looking insights
 
 STORY SELECTION:
@@ -35,6 +39,12 @@ STORY SELECTION:
 - Select between 1-5 of the most newsworthy stories
 - If you have multiple articles about the same topic, combine them into one story
 - Order stories to create the best narrative flow, considering both news value and thematic connections
+
+TRANSITION GUIDELINES:
+- Make transitions feel natural and conversational, not forced
+- Use transitions to highlight connections between stories (thematic, geographical, temporal, or conceptual)
+- Vary transition styles - don't use the same phrase pattern repeatedly
+- Transitions should feel like a natural pause before the next topic, not an abrupt cut
 
 STYLE GUIDELINES:
 - Write conversationally as if speaking directly to listeners
